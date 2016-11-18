@@ -35,4 +35,10 @@ another loader config:
 alias: { "dojo/domReady": 'raw-loader' }
 ```
 
-which solved a problem when using dojo/domReady! in your dojo files.
+which solved a problem when using dojo/domReady! in your dojo files - a dreaded error like
+
+```bash
+ERROR in ./src/button.js
+Module not found: Error: Cannot resolve module 'dojo/domReady' in /Users/joerg/dev/dojo-dijit-webpack-sample/src
+ @ ./src/button.js 1:0-11:2
+```
