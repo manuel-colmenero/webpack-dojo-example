@@ -1,0 +1,11 @@
+{
+  "name": "dojo-dijit-webpack-sample",
+  "version": "1.0.0",
+  "description": "A dojo/dijit sample packaged up with webpack to avoid dojo build",
+  "author": "Jörg Erdmenger <joerge@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dojo-webpack-loader": "^0.9.2",
+    "webpack": "^1.13.3"
+  }
+}
