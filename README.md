@@ -24,4 +24,6 @@ http-server ./
 Then open http://localhost:8080/button.html in your browser. Open your developer tools and check whether you can see the source of e.g.
 dojo/dijit/form/Button.js (to be found in the resource named 1.1.bundle.js)
 
+![devtools screenshot](https://github.com/joeslow/dojo-dijit-webpack-sample/blob/master/devtools.jpeg "devtools screenshot")
+
 
