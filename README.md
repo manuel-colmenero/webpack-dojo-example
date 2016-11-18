@@ -26,4 +26,13 @@ dojo/dijit/form/Button.js (to be found in the resource named 1.1.bundle.js)
 
 ![devtools screenshot](https://github.com/joeslow/dojo-dijit-webpack-sample/blob/master/devtools.jpeg "devtools screenshot")
 
+The dojo code that is loaded in the button.html file is the (web-)packed version. The code is obviously trivial (and taken straight from the 
+[dojo reference page sample](https://dojotoolkit.org/reference-guide/1.10/dijit/form/Button.html#dijit-form-button) ).
 
+The webpack.config.js file has been modified from the samples found [here](https://github.com/Nordth/dojo-webpack-loader-examples) in that it adds
+another loader config:
+```json
+alias: { "dojo/domReady": 'raw-loader' }
+```
+
+which solved a problem when using dojo/domReady! in your dojo files.
