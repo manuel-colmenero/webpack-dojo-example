@@ -18,7 +18,9 @@ module.exports = {
     resolve: {
         alias: {
             "dojo": path.resolve(__dirname, './dojo/dojo'),
-            "dijit": path.resolve(__dirname, './dojo/dijit')
+            "dijit": path.resolve(__dirname, './dojo/dijit'),
+            "esri": path.resolve(__dirname, './dojo/arcgis-js-api'),
+            "dojox": path.resolve(__dirname, './dojo/dojox'),
         }
     },
     devtool: 'source-map',

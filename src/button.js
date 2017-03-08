@@ -1,4 +1,4 @@
-require(["dijit/form/Button", "dojo/dom","dojo/domReady!"], function(Button, dom){
+require(["esri/map", "dijit/form/Button", "dojo/dom","dojo/domReady!"], function(Map, Button, dom){
     // Create a button programmatically:
     var myButton = new Button({
         label: "Click me!",
